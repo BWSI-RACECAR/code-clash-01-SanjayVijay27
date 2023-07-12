@@ -31,7 +31,7 @@ class Solution:
             #type s: string
             #return type: boolean
             
-            return (s==s[::-1])
+            return (s==s[::-1] and len(s) > 6 and s.isalpha())
 
 def main():
     tc1 = Solution()
